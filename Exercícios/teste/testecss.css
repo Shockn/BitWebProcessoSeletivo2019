@@ -6,6 +6,16 @@ header{
     color: black;
 }
 
+table{
+    border: 1px black solid;
+    margin: auto;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px black dashed;
+}
+
 body{
     background-color: #112244;
 }
@@ -16,7 +26,7 @@ body{
     padding: 50px;
     text-align: center;
     line-height: 30px;
-    height: 200px;
+    height: 500px;
     width: 1000px;
     background-color: white;
 }

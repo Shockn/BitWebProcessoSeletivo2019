@@ -164,8 +164,31 @@
 
         <hr>
 
+        <section style="text-align: center;">
+            <h2>Borders & Margins & Paddings</h2>
+        </section>
+        
         <section>
-            
+            <style>
+                #border1{border: groove greenyellow 10px; margin: 10px 20px 10px 50px;}
+                #border2{border: inset pink 10px; padding: 10px 20px;}
+                #border3{border: double red 15px; padding: 10px 20px; margin: 10px 1px;}
+                #border4{border: dashed darkkhaki 20px;}
+            </style>
+            <img id='border1' src="templateBranco.jpg">
+            <img id='border2' src="templateBranco.jpg">
+            <img id='border3' src="templateBranco.jpg">
+            <img id='border4' src="templateBranco.jpg">
+        </section>
+        
+        <section style="text-align: center;">
+            <h2>Position</h2>
+        </section>
+
+        <section>
+            <img src="templateZelda.jpeg" style="position: relative; left: -100px;">
+            <p>Position: relative :00</p>
+            <img src="templateBranco.jpg" style="position: relative; left: 90%;"
         </section>
     </div>
 
@@ -205,6 +228,23 @@
                 <label for='secret'>Senha:</label>
                 <input type="password" id='secret' name='Ô_Õ'>
                 <p>Type: password</p>
+                <br><br>
+                <label for='human'>Clique se você for</label>
+                <input type="checkbox" id='human' name='human'>
+                <p>Type: checkbox</p>
+                <br>
+                <p>Qual o melhor pokemon?</p>
+                <fieldset>
+                    <input type="radio" id=”bat” value=”41” name=”bestmon”>
+                    <label for=”bat”>Zubat</label>
+                    <input type="radio" id=”cool” value=”71” name=”bestmon”>
+                    <label for=”cool”>Tentacool</label>
+                    <p>Type: radio (com fieldset)</p>
+                </fieldset>
+                <br>
+                <form action=”/meuHandler” method=”get”>
+                    <button type="submit">Enviar</button>
+                </form>
             </form>
         </section>
     </div>

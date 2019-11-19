@@ -87,5 +87,7 @@ a:visited{
 
 #aula6ex2{
     position: relative;
-    width: 49%;
+    width: 25vw;
+    left: 10vh;
+    bottom: 10vh;
 }

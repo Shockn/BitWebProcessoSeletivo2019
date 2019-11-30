@@ -1,3 +1,25 @@
+/*FOTOS*/
+#fotos{
+    background-color: lightgrey;
+    padding: 50px 0px;
+}
+
+#foto1{
+    height: 512px;
+    color: white;
+    padding-top: 15%;
+    text-align: center;
+    background-image: url("imgs/facebook.png");
+}
+
+#foto2{
+    height: 512px;
+    color: white;
+    padding-top: 15%;
+    text-align: center;
+    background-image: url("imgs/instagram.png");
+}
+
 /*SLIDER*/
 
 #slider{

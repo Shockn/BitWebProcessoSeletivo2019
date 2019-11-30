@@ -3,6 +3,10 @@
     background-color: black;
 }
 
+.nav-menu:hover{
+    background-color: lightslategray;
+}
+
 /*TÍTULO*/
 
 #titulo{

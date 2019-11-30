@@ -1,4 +1,13 @@
+/*SLIDER*/
+
+#slider{
+    background-color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
 /*INSCREVA-SE*/
+
 #inscreva-se{
     background-color: lightgrey;
     text-align: center;

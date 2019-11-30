@@ -14,6 +14,8 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <script src="script.js"></script>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
@@ -22,20 +24,45 @@
 
 <body>
 
+    <!------------------------------------BARRA DE NAVEGAÇÃO------------------------------------------------------------->
     <nav>
+
         <div class="nav-wrapper container">
 
             <a href="#" class="brand-logo">Logo</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Link 1</a></li>
-                <li><a href="badges.html">Link 2</a></li>
-                <li><a href="collapsible.html">Link 3</a></li>
-                <li><a href="collapsible.html">Link 4</a></li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
             </ul>
         
         </div>
-    </nav>
 
+    </nav>
+    <!----------------------------------------------SLIDER--------------------------------------------------------------->
+
+    <section id="slider">
+        
+        <div class="container">
+            <h5>Slider</h5>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur magna quis orci molestie porta. 
+                Phasellus maximus risus velit, suscipit sodales felis elementum sit amet. Pellentesque feugiat in nibh eu euismod. 
+            </p>
+            <div class="carousel">
+                <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+                <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+                <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+                <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+                <a class="carousel-item" href="#six!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+                <a class="carousel-item" href="#seven!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-----------------------------------------INSCREVA-SE--------------------------------------------------------------->
     <section id="inscreva-se">
 
         <div class="container">
@@ -55,13 +82,14 @@
 
     </section>
 
-    <footer class="page-footer"><!--FOOTER/RODAPÉ-->
+    <!----------------------------------------FOOTER/RODAPÉ--------------------------------------------------------------->
+    <footer class="page-footer">
         
         <div class="container">
 
             <div class="row">
 
-                <div class="col l2 offset-l2">
+                <div class="col l3 offset-l2">
 
                     <h5 class="white-text">MAPA DO SITE</h5>
                     <ul>
@@ -85,30 +113,34 @@
                 
                 </div>
 
-                <div class="col l4">
+                <div class="col l5">
 
                     <h5 class="white-text">REDES SOCIAIS</h5>
                     <div class="row">
+
                         <div>
-                            <a href="#"><img src="imgs/facebook.png" alt="Facebook" class="col l2"></a>
+                            <a href="#"><img src="imgs/facebook.png" class="col l2" alt="Facebook"></a>
                         </div>
                         <div>
-                            <a href="#"><img src="imgs/twitter.png" alt="Twitter" class="col l2"></a>
+                            <a href="#"><img src="imgs/twitter.png" class="col l2" alt="Twitter"></a>
                         </div>
                         <div>
-                            <a href="#"><img src="imgs/instagram.png" alt="Instagra" class="col l2"></a>                            </div>
+                            <a href="#"><img src="imgs/instagram.png" class="col l2" alt="Instagram"></a>                            </div>
                         </div>
                         <div>
-                            <a href="#"><img src="imgs/youtube.png" alt="Youtube" class="col l2"></a>
+                            <a href="#"><img src="imgs/youtube.png" class="col l2" alt="Youtube"></a>
                         </div>
                    
                     </div><!--FECHA A ROW DAS REDES SOCIAIS-->
+                
+                </div>
 
             </div> <!--FECHA A ROW DO FOOTER-->
         
         </div> <!--FECHA O CONTAINER DO FOOTER-->
     
-    </footer>
+    </footer><!--FECHA O FOOTER-->
+
 </body>
 
 </html>

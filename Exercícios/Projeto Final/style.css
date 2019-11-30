@@ -1,3 +1,23 @@
+/*BARRA DE NAVEGAÇÃO*/
+#nav{
+    background-color: black;
+}
+
+/*TÍTULO*/
+
+#titulo{
+    padding: 100px 0px;;
+    background-color: lightgrey;
+}
+
+/*BOTÕES*/
+
+#botoes{
+    text-align: center;
+    padding: 50px 0px;
+    background-color: white;
+}
+
 /*FOTOS*/
 
 #fotos{
@@ -8,7 +28,7 @@
 #foto1{
     height: 512px;
     color: white;
-    padding-top: 15%;
+    padding-top: 22%;
     text-align: center;
     background-image: url("imgs/facebook.png");
 }
@@ -16,7 +36,7 @@
 #foto2{
     height: 512px;
     color: white;
-    padding-top: 15%;
+    padding-top: 22%;
     text-align: center;
     background-image: url("imgs/instagram.png");
 }
@@ -59,9 +79,13 @@
     padding: 15px;
 }
 
+#inscreva-se input[type=submit]:hover{
+    background-color: teal;
+}
+
 /*FOOTER*/
 
 .page-footer{
-    padding: 50px 0px;
+    padding: 50px 50px 20px 50px;
     background-color: black;
 }

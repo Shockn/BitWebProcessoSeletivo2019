@@ -11,7 +11,20 @@
 
 #titulo{
     padding: 100px 0px;;
-    background-color: lightgrey;
+    background-image: url("imgs/title-image.jpg");
+    background-position: center;
+}
+
+#titulo .btn-large{
+    background-color: darkred;
+}
+
+#titulo .btn-large:hover{
+    background-color: rgb(102, 7, 7);
+}
+
+#titulo .left{
+    margin-right: 2px;
 }
 
 /*BOTÕES*/
@@ -51,6 +64,15 @@
     background-color: white;
     text-align: center;
     padding: 50px 0px;
+}
+
+.carousel{
+    position: relative;
+    right: 2vw;
+}
+
+.carousel .carousel-item>img{
+    width: 130%;
 }
 
 /*INSCREVA-SE*/

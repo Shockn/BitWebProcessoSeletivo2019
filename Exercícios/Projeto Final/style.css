@@ -20,6 +20,11 @@
     height: 600px;
     background-image: url("imgs/title-image.jpg");
     background-position: center;
+    font-family: serif;
+}
+
+#titulo h3{
+    color: goldenrod;
 }
 
 #titulo .btn-large{
@@ -38,6 +43,7 @@
 /*BOTÕES*/
 
 #botoes{
+    font-family: serif;
     text-align: center;
     padding: 50px 0px;
     background-color: white;
@@ -46,26 +52,39 @@
 /*FOTOS*/
 
 #fotos{
-    background-color: lightgrey;
+    background-image: linear-gradient(darkred 80%, red);
     padding: 50px 0px;
+    color: goldenrod;
+    font-family: serif;
+}
+
+#fotos a{
+    color: goldenrod;
+    font-style: italic;
+}
+
+#fotos a:hover{
+    color: rgb(150, 114, 22);
 }
 
 #foto1{
-    height: 512px;
-    color: white;
-    padding-top: 22%;
+    height: 350px;
+    padding-top: 15%;
     text-align: center;
-    background-image: url("imgs/facebook.png");
+    background-image: url("imgs/Senna.jpg");
     background-position: center;
+    background-position-y: top;
+    border: goldenrod outset 3px;
 }
 
 #foto2{
-    height: 512px;
-    color: white;
-    padding-top: 22%;
+    height: 350px;
+    padding-top: 15%;
     text-align: center;
-    background-image: url("imgs/instagram.png");
+    background-image: url("imgs/Aphelios.jpg");
     background-position: center;
+    background-position-y: top;
+    border: goldenrod outset 3px;
 }
 
 /*SLIDER*/

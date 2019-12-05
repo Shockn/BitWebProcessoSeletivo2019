@@ -43,28 +43,37 @@
 /*BOTÕES*/
 
 #botoes{
-    font-family: serif;
     text-align: center;
+    color: goldenrod;
     padding: 50px 0px;
     background-color: white;
+}
+
+#botoes .btn-large{
+    color: white;
+    background-color: darkred;
+}
+
+#botoes .btn-large:hover{
+    background-color: rgb(102, 7, 7);
 }
 
 /*FOTOS*/
 
 #fotos{
-    background-image: linear-gradient(darkred 80%, red);
+    /*background-image: linear-gradient(darkred 80%, red);*/
+    background-color: rgba(139, 0, 0, 0.750);
     padding: 50px 0px;
-    color: goldenrod;
-    font-family: serif;
+    color: white;
 }
 
 #fotos a{
-    color: goldenrod;
+    color: white;
     font-style: italic;
 }
 
 #fotos a:hover{
-    color: rgb(150, 114, 22);
+    color: rgb(182, 180, 174);
 }
 
 #foto1{
@@ -107,7 +116,8 @@
 /*INSCREVA-SE*/
 
 #inscreva-se{
-    background-color: lightgrey;
+    background-color: rgba(139, 0, 0, 0.750);
+    color: white;
     text-align: center;
     padding: 50px 0px;
 }
@@ -118,7 +128,7 @@
 
 #inscreva-se input[type=text]{
     background-color: white;
-    border: black 1px solid;
+    border: goldenrod 1px solid;
     padding: 0px 10px;
 }
 
@@ -130,17 +140,17 @@
     color: white;
     cursor: pointer;
     border: none;
-    background-color: cornflowerblue;
+    background-color: goldenrod;
     padding: 15px;
 }
 
 #inscreva-se input[type=submit]:hover{
-    background-color: teal;
+    background-color: rgb(199, 157, 52);
 }
 
 /*FOOTER*/
 
 .page-footer{
     padding: 50px 50px 20px 50px;
-    background-color: black;
+    background-color: rgb(99, 3, 3);
 }

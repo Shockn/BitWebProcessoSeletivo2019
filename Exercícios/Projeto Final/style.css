@@ -63,7 +63,7 @@
 #fotos{
     /*background-image: linear-gradient(darkred 80%, red);*/
     background-color: rgba(139, 0, 0, 0.750);
-    padding: 50px 0px;
+    padding: 50px 0px 10px 0px;
     color: white;
 }
 
@@ -84,6 +84,7 @@
     background-position: center;
     background-position-y: top;
     border: goldenrod outset 3px;
+    margin-bottom: 20px;
 }
 
 #foto2{
@@ -94,6 +95,7 @@
     background-position: center;
     background-position-y: top;
     border: goldenrod outset 3px;
+    margin-bottom: 20px;
 }
 
 /*SLIDER*/

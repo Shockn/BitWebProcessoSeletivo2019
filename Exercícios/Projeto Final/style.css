@@ -3,14 +3,26 @@
     background-color: darkred;
 }
 
-#logo img{
-    width: 10vw;
-    position: relative;
-    top: 2px;
+#logo{
+    float: left;
+    max-height: 56px;
 }
 
 .nav-menu:hover{
     background-color: rgb(102, 7, 7);
+}
+
+nav .sidenav-trigger{
+    float: right;
+    color: goldenrod;
+}
+
+nav .sidenav{
+    background-color: darkred;
+}
+
+nav .sidenav a{
+    color: white;
 }
 
 /*TÍTULO*/
@@ -40,18 +52,23 @@
     margin-right: 2px;
 }
 
+
 /*BOTÕES*/
 
 #botoes{
-    text-align: center;
     color: goldenrod;
     padding: 50px 0px;
     background-color: white;
 }
 
+#botoes h5{
+    margin-bottom: 50px;
+}
+
 #botoes .btn-large{
     color: white;
     background-color: darkred;
+    margin-bottom: 20px;
 }
 
 #botoes .btn-large:hover{
@@ -121,7 +138,7 @@
     background-color: rgba(139, 0, 0, 0.750);
     color: white;
     text-align: center;
-    padding: 50px 0px;
+    padding: 50px 50px;
 }
 
 #inscreva-se h5{

@@ -30,17 +30,26 @@
     <nav id="nav">
 
         <div class="nav-wrapper container">
-            
-            <div id="logo">
-                <a href="index.html" class="brand-logo"><img src="imgs/lol-logo.png" alt="Logo do site"></a>
-            </div>
 
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li class="nav-menu"><a href="#">HOME</a></li>
-                <li class="nav-menu"><a href="#">NOTÍCIAS</a></li>
-                <li class="nav-menu"><a href="#">SOBRE</a></li>
-                <li class="nav-menu"><a href="#">CONTATO</a></li>
-            </ul>
+            <div class="row">
+                
+                <a href="index.html" class="brand-logo"><img src="imgs/lol-logo.png" alt="Logo do site" id="logo"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li class="nav-menu"><a href="#">HOME</a></li>
+                    <li class="nav-menu"><a href="#">NOTÍCIAS</a></li>
+                    <li class="nav-menu"><a href="#">SOBRE</a></li>
+                    <li class="nav-menu"><a href="#">CONTATO</a></li>
+                </ul>
+
+                <ul id="slide-out" class="sidenav">
+                    <li><a class="waves-effect" href="#!">HOME</a></li>
+                    <li><a class="waves-effect" href="#!">NOTÍCIAS</a></li>
+                    <li><a class="waves-effect" href="#!">SOBRE</a></li>
+                    <li><a class="waves-effect" href="#!">CONTATO</a></li>
+                </ul>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+            </div>
         
         </div>
 
@@ -51,12 +60,12 @@
     <section id="titulo">
 
         <div class="container">
-
-            <h3>PRÉ-TEMPORADA 2020</h3>
-            <h4>Confira as novidades do patch de pré-temporada:<br>Ascenção dos Elementos</h4>
-            <h6>Mudanças no sistema dos dragões elementais, mudanças de itens e muito mais...</h6>
+            
+            <h3 class="col l12 s12">PRÉ-TEMPORADA 2020</h3>
+            <h4 class="col l12 s12">Confira as novidades do patch de pré-temporada:<br>Ascenção dos Elementos</h4>
+            <h6 class="col l12 s12">Mudanças no sistema dos dragões elementais, mudanças de itens e muito mais...</h6>
             <br>
-            <a class="btn-large"><i class="material-icons left">chevron_right</i>Ver mais</a>
+            <div class="col l12 s12"><a class="btn-large"><i class="material-icons left">chevron_right</i>Ver mais</a></div>
 
         </div>
 
@@ -67,12 +76,14 @@
     <section id="botoes">
         
         <div class="container">
-
-            <h5>Wiki</h5>
-            <a class="waves-effect waves-light btn-large"><i class="material-icons left">all_out</i>Itens</a>
-            <a class="waves-effect waves-light btn-large"><i class="material-icons left">person</i>Personagens</a>
-            <a class="waves-effect waves-light btn-large"><i class="material-icons left">public</i>Regiões</a>
             
+            <div class="row"><h5 class="col l2 offset-l6 s1 offset-s5">WIKI</h5></div>
+            <div class="row">
+                <a class="waves-effect waves-light btn-large col l3 offset-l1 s12"><i class="material-icons left">all_out</i>Itens</a>
+                <a class="waves-effect waves-light btn-large col l3 offset-l1 s12"><i class="material-icons left">person</i>Personagens</a>
+                <a class="waves-effect waves-light btn-large col l3 offset-l1 s12"><i class="material-icons left">public</i>Regiões</a>
+            </div>
+
         </div>
     
     </section>
@@ -137,7 +148,7 @@
             <div class="row">  
 
                 <form>
-                    <input class="col l4 s12 offset-l2" type="text" placeholder="E-mail">
+                    <input class="col l4 offset-l2 s12" type="text" placeholder="E-mail">
                     <input class="col l3 s12" type="submit" value="Enviar">
                 </form>
 
@@ -154,7 +165,7 @@
 
             <div class="row">
 
-                <div class="col l3 offset-l1">
+                <div class="col l3 offset-l1 s12 offset-s2">
 
                     <h5 class="white-text">MAPA DO SITE</h5>
                     <ul>
@@ -166,7 +177,7 @@
                 
                 </div>
 
-                <div class="col l3">
+                <div class="col l3 s12 offset-s2">
 
                     <h5 class="white-text">ENDEREÇO</h5>
                     <ul>
@@ -178,15 +189,15 @@
                 
                 </div>
 
-                <div class="col l5">
+                <div class="col l5 s12 offset-s2">
 
                     <h5 class="white-text">REDES SOCIAIS</h5>
                     <div class="row">
                         <ul>
-                            <li><a href="#"><img src="imgs/facebook.png" class="col l2" alt="Facebook"></a></li>
-                            <li><a href="#"><img src="imgs/twitter.png" class="col l2" alt="Twitter"></a></li>
-                            <li><a href="#"><img src="imgs/instagram.png" class="col l2" alt="Instagram"></a></li>
-                            <li><a href="#"><img src="imgs/youtube.png" class="col l2" alt="Youtube"></a></li>
+                            <li><a href="#"><img src="imgs/facebook.png" class="col l2 s2" alt="Facebook"></a></li>
+                            <li><a href="#"><img src="imgs/twitter.png" class="col l2 s2" alt="Twitter"></a></li>
+                            <li><a href="#"><img src="imgs/instagram.png" class="col l2 s2" alt="Instagram"></a></li>
+                            <li><a href="#"><img src="imgs/youtube.png" class="col l2 s2" alt="Youtube"></a></li>
                         </ul>
                     </div><!--FECHA A ROW DAS REDES SOCIAIS-->
                 

@@ -71,6 +71,10 @@ h3{
     color: rgb(168, 126, 18);
 }
 
+#fotos .row{
+    margin-bottom: 0px;
+}
+
 #fotos .hide-on-med-and-down #foto1{
     width: 300px;
     height: 300px;
@@ -111,4 +115,10 @@ h3{
 
 #foto1s, #foto2s{
     padding-top: 30%;
+}
+
+/*SLIDER*/
+
+#slider{
+    padding: 50px 0px;
 }

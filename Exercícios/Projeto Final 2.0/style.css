@@ -8,6 +8,19 @@ nav{
     background-color: darkred;
 }
 
+nav .sidenav-trigger{
+    float: right;
+    color: goldenrod;
+}
+
+nav .sidenav{
+    background-color: darkred;
+}
+
+nav .sidenav a{
+    color: white;
+}
+
 /*TÍTULO*/
 
 h3{
